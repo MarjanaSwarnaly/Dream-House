@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header CSS start */
+header {
+  padding: 10px;
+}
+.wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  width: 18%;
+  float: left;
+}
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  width: 80%;
+  float: right;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4b5668;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 35px;
+  display: inline-block;
+}
+.menu ul li a:hover {
+  color: #487ed4;
+}
+/* header css end */
+/* Banner Css start */
+.banner {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.b_content {
+  width: 315px;
+  height: 229px;
+  margin-top: 45px;
+  margin-bottom: 150px;
+  background: rgba(6, 11, 15, 0.6);
+}
+.b_content h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #cad4de;
+  text-transform: uppercase;
+  line-height: 40px;
+  margin: 0;
+  padding: 20px 10px 0 20px;
+}
+.b_content p {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #cad4de;
+  text-transform: capitalize;
+  margin: 0;
+  padding-left: 20px;
+  line-height: 22px;
+}
+.b_content button {
+  padding: 7px 20px;
+  margin: 20px 0 25px 20px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #cad4de;
+  background: rgba(52, 71, 87, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+}
+.b_content button:focus {
+  outline: 0;
+}
+/* Banner CSs End */
+
+/* Service CSS Start */
+
+.service {
+  padding: 30px 0 10px;
+}
+.wrapper2 {
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+}
+.single {
+  width: 29%;
+  float: left;
+  padding: 22px 25px 38px;
+}
+.service h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: #aca9a4;
+  text-align: center;
+}
+.service img {
+  width: 100%;
+}
+.service p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #8d8a91;
+  text-align: center;
+  line-height: 26px;
+}
+.service button {
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: #405a7b;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 28px 0 0 42%;
+}
+/* Service CSS end */
+
+/* Footer Css Start */
+.footer {
+  padding: 20px 0;
+}
+.footer h4 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #405a7b;
+  text-align: center;
+}
+.footer p {
+  font-size: 14px;
+  color: #405a7b;
+  text-align: center;
+}
+.social_icon ul {
+  margin: 25px 0 0 40%;
+  list-style: none;
+  overflow: hidden;
+}
+.social_icon li {
+  float: left;
+  padding: 0 5px;
+  font-size: 35px;
+}
+.social_icon li a {
+  text-decoration: none;
+  float: left;
+}
+.social_icon ul li a {
+  color: #4d689d;
+}
+.fab fa-twitter-square {
+  color: red;
+}
+/* Footer Css End */
